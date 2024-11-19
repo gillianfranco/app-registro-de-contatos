@@ -1,6 +1,6 @@
 def cadastrar_contato(id):
     print()
-    print('-' * 30 + ' MENU CADASTRAR CADASTROS ' + '-' * 30)
+    print('-' * 30 + ' MENU CADASTRAR CONTATOS ' + '-' * 30)
     nome = input('\nDigite o nome do contato: ')
     atividade = input('Digite a atividade que o contato desempenha: ')
     telefone = input('Digite o telefone: ')
@@ -20,7 +20,7 @@ def cadastrar_contato(id):
 def consultar_contatos():
     while True:
         print()
-        print('-' * 30 + ' MENU CONSULTAR CADASTROS ' + '-' * 30)
+        print('-' * 30 + ' MENU CONSULTAR CONTATOS ' + '-' * 30)
         print('\nEscolha a opção desejada: ')
         print('1 - Consultar todos')
         print('2 - Consultar por Id')
@@ -80,7 +80,7 @@ def consultar_contatos():
 
 def remover_contatos():
     print()
-    print('-' * 31 + ' MENU REMOVER CADASTROS ' + '-' * 31)
+    print('-' * 31 + ' MENU REMOVER CONTATOS ' + '-' * 31)
     while True:
         id = int(input('\nDigite o Id do contato (ou digite 0 para sair): '))
 
