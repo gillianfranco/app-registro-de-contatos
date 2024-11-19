@@ -83,13 +83,12 @@ def remover_contatos():
     print('-' * 31 + ' MENU REMOVER CONTATOS ' + '-' * 31)
     while True:
         id = int(input('\nDigite o Id do contato (ou digite 0 para sair): '))
+        print()
 
         # Caso o Id for igual a 0, o usuário é redirecionado para o menu principal.
         if id == 0:
-            print()
             break
 
-        print()
         encontrado = 0
 
         # Procura o contato que possui o Id informado pelo usuário e o apaga.
