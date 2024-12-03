@@ -15,7 +15,7 @@ def cadastrar_contato(id):
     }
 
     # Insere o dicionário na lista de contatos
-    lista_contatos.append(dados.copy())
+    lista_contatos.append(dados)
 
 def consultar_contatos():
     while True:
